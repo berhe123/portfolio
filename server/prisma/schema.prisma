@@ -1,0 +1,23 @@
+// This is your Prisma schema file.
+// Optional: enable with `npx prisma generate` when connecting PostgreSQL.
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model ContactMessage {
+  id        String   @id @default(cuid())
+  name      String
+  email     String
+  message   String
+  createdAt DateTime @default(now())
+  status    String   @default("new")
+
+  @@index([email])
+  @@index([createdAt])
+}
