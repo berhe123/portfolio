@@ -48,7 +48,7 @@ export function HeroSection() {
   return (
     <section
       id="hero"
-      className="relative flex h-[100svh] max-h-[100svh] items-center justify-center overflow-hidden grid-bg px-4 pb-5 pt-[4.25rem] sm:pt-[4.75rem]"
+      className="relative flex h-[100svh] max-h-[100svh] items-center justify-center overflow-hidden bg-[var(--bg)] px-4 pb-5 pt-[4.25rem] sm:pt-[4.75rem]"
     >
       <div className="relative z-10 mx-auto flex w-full max-w-4xl flex-col items-center text-center">
         <motion.div

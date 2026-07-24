@@ -8,7 +8,7 @@ import { LanguagesSection } from '@/widgets/languages/ui/LanguagesSection'
 
 export function HomePage() {
   return (
-    <main id="main" className="grid-bg">
+    <main id="main" className="bg-[var(--bg)]">
       <HeroSection />
       <AboutSection />
       <ExperienceSection />
