@@ -1,14 +1,13 @@
 import { education } from '@/content/education'
 import { Reveal } from '@/shared/ui/reveal'
+import { SectionTitle } from '@/shared/ui/section-title'
 
 export function EducationSection() {
   return (
     <section id="education" className="section-pad">
       <div className="container-premium">
         <Reveal className="mb-8 md:mb-10 text-left">
-          <h2 className="font-display text-2xl sm:text-3xl md:text-4xl leading-[1.15] tracking-tight text-[var(--fg)]">
-            Education
-          </h2>
+          <SectionTitle>Education</SectionTitle>
         </Reveal>
 
         <div className="grid grid-cols-1 gap-5 md:grid-cols-2">

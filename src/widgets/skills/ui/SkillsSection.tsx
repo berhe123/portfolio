@@ -3,6 +3,7 @@ import type { SkillItem } from '@/shared/types/content'
 import { cn } from '@/shared/lib/cn'
 import { getTechBrandIcon } from '@/shared/ui/tech-brand-icons'
 import { Reveal } from '@/shared/ui/reveal'
+import { SectionTitle } from '@/shared/ui/section-title'
 
 function BrandIcon({ skill, size }: { skill: SkillItem; size: number }) {
   const Icon = getTechBrandIcon(skill.icon)
@@ -62,9 +63,7 @@ export function TechStackSection() {
     <section id="tech-stack" className="section-pad">
       <div className="container-premium">
         <Reveal className="mb-8 md:mb-10 text-left">
-          <h2 className="font-display text-2xl sm:text-3xl md:text-4xl leading-[1.15] tracking-tight text-[var(--fg)]">
-            Tech Stack
-          </h2>
+          <SectionTitle>Technical Stack</SectionTitle>
         </Reveal>
 
         <div className="space-y-10 md:space-y-12">

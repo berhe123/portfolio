@@ -2,15 +2,14 @@ import { MapPin } from 'lucide-react'
 import { experiences } from '@/content/experience'
 import { Badge } from '@/shared/ui/badge'
 import { Reveal } from '@/shared/ui/reveal'
+import { SectionTitle } from '@/shared/ui/section-title'
 
 export function ExperienceSection() {
   return (
     <section id="experience" className="section-pad">
       <div className="container-premium">
         <Reveal className="mb-8 md:mb-10 text-left">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl leading-[1.15] tracking-tight text-[var(--fg)]">
-            Work Experience
-          </h2>
+          <SectionTitle>Professional Experience</SectionTitle>
         </Reveal>
 
         <div className="relative">

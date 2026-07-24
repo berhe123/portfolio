@@ -1,14 +1,13 @@
 import { languagesContent } from '@/content/languages'
 import { Reveal } from '@/shared/ui/reveal'
+import { SectionTitle } from '@/shared/ui/section-title'
 
 export function LanguagesSection() {
   return (
     <section id="languages" className="section-pad">
       <div className="container-premium">
         <Reveal className="mb-8 md:mb-10 text-left">
-          <h2 className="font-display text-2xl sm:text-3xl md:text-4xl leading-[1.15] tracking-tight text-[var(--fg)]">
-            Languages
-          </h2>
+          <SectionTitle>Languages</SectionTitle>
         </Reveal>
 
         <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">

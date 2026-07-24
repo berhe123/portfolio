@@ -2,6 +2,7 @@ import { motion } from 'framer-motion'
 import { ExternalLink } from 'lucide-react'
 import { projects } from '@/content/projects'
 import { Reveal } from '@/shared/ui/reveal'
+import { SectionTitle } from '@/shared/ui/section-title'
 import { cn } from '@/shared/lib/cn'
 
 export function ProjectsSection() {
@@ -9,9 +10,7 @@ export function ProjectsSection() {
     <section id="projects" className="section-pad">
       <div className="container-premium">
         <Reveal className="mb-7 md:mb-9 text-left">
-          <h2 className="font-display text-2xl sm:text-[1.75rem] md:text-[2rem] leading-[1.15] tracking-tight text-[var(--fg)]">
-            Projects
-          </h2>
+          <SectionTitle>Featured Projects</SectionTitle>
         </Reveal>
 
         <div className="grid gap-5 md:gap-6">

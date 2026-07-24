@@ -1,14 +1,13 @@
 import { aboutContent } from '@/content/sections'
 import { Reveal } from '@/shared/ui/reveal'
+import { SectionTitle } from '@/shared/ui/section-title'
 
 export function AboutSection() {
   return (
     <section id="summary" className="section-pad">
       <div className="container-premium">
         <Reveal className="mb-6 md:mb-8 text-left">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl leading-[1.15] tracking-tight text-[var(--fg)]">
-            {aboutContent.title}
-          </h2>
+          <SectionTitle>{aboutContent.title}</SectionTitle>
         </Reveal>
 
         <Reveal delay={0.06}>
