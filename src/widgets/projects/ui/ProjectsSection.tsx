@@ -37,11 +37,14 @@ export function ProjectsSection() {
                 >
                   <div className="relative flex flex-col gap-4 p-5 sm:gap-5 sm:p-6 md:p-7">
                     <div className="flex flex-wrap items-start justify-between gap-3">
-                      <div className="flex flex-wrap items-center gap-2.5">
-                        <span className="inline-flex items-center rounded-full border border-[var(--accent)]/30 bg-[var(--accent-soft)] px-2.5 py-0.5 font-mono text-[11px] font-semibold tracking-wide text-[var(--accent)]">
+                      <div className="flex flex-wrap items-center gap-3">
+                        <span
+                          className="inline-flex h-8 min-w-8 items-center justify-center rounded-lg border border-[var(--accent)]/35 bg-[var(--accent-soft)] px-2 font-display text-sm font-semibold tabular-nums tracking-tight text-[var(--accent)]"
+                          aria-hidden
+                        >
                           {number}
                         </span>
-                        <span className="text-[10px] sm:text-[11px] font-medium uppercase tracking-[0.14em] text-[var(--fg-subtle)]">
+                        <span className="text-xs sm:text-sm font-medium tracking-normal text-[var(--fg-subtle)] normal-case">
                           {project.year} · {project.role}
                         </span>
                       </div>
@@ -49,7 +52,7 @@ export function ProjectsSection() {
                         {project.tags.slice(0, 3).map((tag) => (
                           <span
                             key={tag}
-                            className="rounded-full border border-[var(--border)] bg-[var(--bg)]/60 px-2 py-0.5 text-[10px] font-medium tracking-wide text-[var(--fg-subtle)]"
+                            className="rounded-full border border-[var(--border)] bg-[var(--bg)]/60 px-2.5 py-1 text-xs font-medium tracking-normal text-[var(--fg-subtle)] normal-case"
                           >
                             {tag}
                           </span>
