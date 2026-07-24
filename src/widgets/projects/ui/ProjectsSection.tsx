@@ -10,7 +10,7 @@ export function ProjectsSection() {
     <section id="projects" className="section-pad">
       <div className="container-premium">
         <Reveal className="mb-7 md:mb-9 text-left">
-          <SectionTitle>Featured Projects</SectionTitle>
+          <SectionTitle>Projects</SectionTitle>
         </Reveal>
 
         <div className="grid gap-5 md:gap-6">
