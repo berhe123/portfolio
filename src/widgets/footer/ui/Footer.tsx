@@ -13,12 +13,13 @@ export function Footer() {
       />
       <div className="container-premium flex flex-col gap-8 md:flex-row md:items-center md:justify-between">
         <div>
-          <p className="font-display text-xl font-bold tracking-tight text-[var(--fg)]">
-            {SITE.name}
+          <p className="font-display text-xl font-bold tracking-tight">
+            <span className="text-[var(--fg)]">berhe.</span>
+            <span className="text-[var(--accent)]">portfolio</span>
           </p>
           <p className="mt-2 text-sm text-[var(--fg-muted)] max-w-md">{SITE.tagline}</p>
           <p className="mt-4 text-xs text-[var(--fg-subtle)]">
-            © {year} {SITE.fullName}.
+            © {year} Berhe.
           </p>
         </div>
 
