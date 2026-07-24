@@ -7,7 +7,7 @@ interface SectionTitleProps {
 }
 
 /**
- * Section heading with a compact break-point accent to the right.
+ * Section heading with three accent points to the right.
  */
 export function SectionTitle({ children, className }: SectionTitleProps) {
   return (
@@ -18,9 +18,8 @@ export function SectionTitle({ children, className }: SectionTitleProps) {
 
       <div className="flex items-center gap-1.5" aria-hidden>
         <span className="h-1.5 w-1.5 rounded-full bg-[var(--fg-subtle)]" />
-        <span className="h-px w-3 bg-[var(--fg-subtle)]/80" />
-        <span className="h-px w-2 bg-[var(--fg-subtle)]/55" />
-        <span className="h-px w-1.5 bg-[var(--fg-subtle)]/35" />
+        <span className="h-1.5 w-1.5 rounded-full bg-[var(--accent)]" />
+        <span className="h-1.5 w-1.5 rounded-full bg-white" />
       </div>
     </div>
   )
