@@ -19,7 +19,7 @@ export const SITE = {
 } as const
 
 export const NAV_ITEMS = [
-  { id: 'hero', label: 'Home', href: '/#hero' },
+  { id: 'hero', label: 'Home', href: '/#' },
   { id: 'summary', label: 'Summary', href: '/#summary' },
   { id: 'experience', label: 'Experience', href: '/#experience' },
   { id: 'projects', label: 'Projects', href: '/#projects' },

@@ -46,10 +46,12 @@ export function Header() {
           )}
         >
           <Link
-            to="/#hero"
-            onClick={() => {
+            to="/#"
+            onClick={(event) => {
               if (isHome) {
+                event.preventDefault()
                 window.scrollTo({ top: 0, behavior: 'smooth' })
+                window.history.replaceState(null, '', '/#')
               }
             }}
             className="relative z-10 font-display text-lg font-bold tracking-tight hover:text-[var(--accent)] transition-colors"
@@ -64,7 +66,8 @@ export function Header() {
             aria-label="Primary"
           >
             {PRIMARY_NAV.map((item) => {
-              const href = isHome ? `#${item.id}` : item.href
+              const href =
+                item.id === 'hero' ? (isHome ? '/#' : item.href) : isHome ? `#${item.id}` : item.href
               const active = isHome && activeSection === item.id
               return (
                 <a
@@ -74,6 +77,7 @@ export function Header() {
                     if (item.id === 'hero' && isHome) {
                       event.preventDefault()
                       window.scrollTo({ top: 0, behavior: 'smooth' })
+                      window.history.replaceState(null, '', '/#')
                       setOpen(false)
                     }
                   }}
@@ -119,12 +123,21 @@ export function Header() {
               {PRIMARY_NAV.map((item) => (
                 <li key={item.id}>
                   <a
-                    href={isHome ? `#${item.id}` : item.href}
+                    href={
+                      item.id === 'hero'
+                        ? isHome
+                          ? '/#'
+                          : item.href
+                        : isHome
+                          ? `#${item.id}`
+                          : item.href
+                    }
                     className="block rounded-xl px-3 py-3 text-sm font-medium text-[var(--fg-muted)] hover:bg-[var(--accent-soft)] hover:text-[var(--fg)]"
                     onClick={(event) => {
                       if (item.id === 'hero' && isHome) {
                         event.preventDefault()
                         window.scrollTo({ top: 0, behavior: 'smooth' })
+                        window.history.replaceState(null, '', '/#')
                       }
                       setOpen(false)
                     }}
