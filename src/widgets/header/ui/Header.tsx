@@ -55,7 +55,7 @@ export function Header() {
             className="relative z-10 font-display text-lg font-bold tracking-tight hover:text-[var(--accent)] transition-colors"
             aria-label={`${SITE.fullName} home`}
           >
-            <span className="text-[var(--fg)]">berhe@</span>
+            <span className="text-[var(--fg)]">berhe.</span>
             <span className="text-[var(--accent)]">portfolio</span>
           </Link>
 
