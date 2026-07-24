@@ -18,9 +18,9 @@ export function SectionTitle({ children, className }: SectionTitleProps) {
       </h2>
 
       <div className="relative min-w-[3rem] flex-1" aria-hidden>
-        <div className="h-px w-full bg-gradient-to-r from-[var(--accent)] via-[var(--accent)]/45 to-transparent" />
-        <span className="absolute left-0 top-1/2 h-1.5 w-1.5 -translate-y-1/2 rounded-full bg-[var(--accent)] shadow-[0_0_10px_color-mix(in_oklab,var(--accent)_70%,transparent)]" />
-        <span className="absolute left-3 top-1/2 h-px w-8 -translate-y-1/2 bg-[var(--accent)]/80" />
+        <div className="h-px w-full bg-gradient-to-r from-[var(--fg-subtle)] via-[var(--fg-subtle)]/45 to-transparent" />
+        <span className="absolute left-0 top-1/2 h-1.5 w-1.5 -translate-y-1/2 rounded-full bg-[var(--fg-subtle)]" />
+        <span className="absolute left-3 top-1/2 h-px w-8 -translate-y-1/2 bg-[var(--fg-subtle)]/80" />
       </div>
     </div>
   )
