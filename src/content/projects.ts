@@ -138,7 +138,7 @@ export const projects: ProjectCaseStudy[] = [
     ],
     technologies: ['JavaScript', 'React', 'Next.js', 'Tailwind CSS', 'Express.js'],
     tags: ['Platform', 'Farka ICT', 'Full Stack'],
-    liveUrl: 'https://brandcast-azure.vercel.app/',
+    liveUrl: 'https://brandcast.digital',
     githubUrl: 'https://github.com/',
     year: '2021',
     role: 'Farka ICT Solutions · Full Stack Developer',
