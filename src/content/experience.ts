@@ -17,11 +17,10 @@ export const experiences: ExperienceItem[] = [
       'Developed and maintained e-commerce applications supporting product catalogs, order flows, and customer-facing experiences.',
       'Built features for the Operation Management System to improve order tracking, status workflows, and operational visibility.',
       'Contributed to an AI customer support application that helps resolve common inquiries faster while keeping clear escalation paths.',
-      'Delivered full stack solutions using JavaScript, TypeScript, React, Next.js, Node.js, and Express.js, with Docker for consistent development and deployment environments.',
+      'Delivered full stack solutions using JavaScript, React, Next.js, Node.js, and Express.js, with Docker for consistent development and deployment environments.',
     ],
     technologies: [
       'JavaScript',
-      'TypeScript',
       'React',
       'Next.js',
       'Node.js',
