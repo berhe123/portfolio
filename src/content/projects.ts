@@ -78,34 +78,34 @@ export const projects: ProjectCaseStudy[] = [
     slug: 'ideago',
     name: 'IDEAGO',
     shortDescription:
-      'A freelance product I built to help founders move from raw ideas to structured execution plans through prioritization, planning, and clear next actions.',
+      'An idea-to-product platform I built at Weyra Consulting to help business owners and developers turn raw ideas into structured execution plans.',
     overview:
-      'As a Freelancer / Self-Employed engineer, I owned IDEAGO end to end. The platform turns scattered brainstorming into organized product planning with a clean React and Next.js experience backed by TypeScript and Node.js.',
+      'At Weyra Consulting, I developed IDEAGO as a full stack product that connects founders and engineers around one shared workflow. The platform turns scattered brainstorming into organized product planning with prioritization, roadmaps, and clear next actions — built with React, Next.js, TypeScript, and Node.js.',
     problem:
-      'Early-stage teams lose momentum when ideas live across docs, chats, and whiteboards.',
+      'Business owners and developers often lose momentum when ideas live across docs, chats, and whiteboards — with no shared path from concept to product.',
     solution:
-      'Created structured idea canvases, scoring workflows, and roadmap-oriented planning views.',
+      'Created structured idea canvases, scoring workflows, and roadmap-oriented planning views so consulting teams can move ideas into executable product plans.',
     architecture:
       'Modular React architecture with typed domain models and API-ready service layers.',
     features: [
-      'Structured idea capture and prioritization',
-      'Planning workflows that support execution readiness',
-      'Responsive full stack product experience',
+      'Structured idea capture and prioritization for founders and developers',
+      'Planning workflows that support idea-to-product execution',
+      'Responsive full stack product experience for consulting delivery',
     ],
     challenges: [
       'Keeping planning UI powerful without becoming complex',
-      'Designing flexible idea models for growth',
+      'Designing flexible idea models for different business and tech stakeholders',
     ],
     lessons: [
       'Constraint-driven UX improves early product tools',
-      'Clear domain boundaries speed up iteration',
+      'Clear domain boundaries speed up consulting delivery',
     ],
     technologies: ['TypeScript', 'React', 'Next.js', 'Node.js', 'Tailwind CSS'],
-    tags: ['SaaS', 'Freelance', 'Full Stack'],
+    tags: ['SaaS', 'Consulting', 'Full Stack'],
     liveUrl: 'https://ideago-rho.vercel.app/',
     githubUrl: 'https://github.com/',
     year: '2023',
-    role: 'Freelance · Full Stack Web Developer',
+    role: 'Weyra Consulting · Full Stack Web Developer',
     accent: '#60a5fa',
     gradient: 'from-sky-500/25 via-blue-600/10 to-[#0a0c10]',
   },
