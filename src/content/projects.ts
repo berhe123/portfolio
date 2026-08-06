@@ -14,7 +14,7 @@ export const projects: ProjectCaseStudy[] = [
     solution:
       'Shipped and improved end-to-end e-commerce features across frontend and backend so customers can discover products, complete purchases, and sell devices with a clear and polished experience.',
     architecture:
-      'Full stack TypeScript product with React and Next.js customer experiences, Node.js and Express services, and Dockerized environments for consistent delivery into a live commerce platform.',
+      'Full stack JavaScript product with React and Next.js customer experiences, Node.js and Express services, and Dockerized environments for consistent delivery into a live commerce platform.',
     features: [
       'Buy and sell journeys for refurbished electronics with clear product and offer flows',
       'Catalog and discovery experiences that help customers compare devices confidently',
@@ -28,7 +28,7 @@ export const projects: ProjectCaseStudy[] = [
       'Trust and clarity matter as much as performance in e-commerce UX',
       'Production marketplaces reward disciplined full stack ownership end to end',
     ],
-    technologies: ['TypeScript', 'React', 'Next.js', 'Node.js', 'Express.js', 'Docker'],
+    technologies: ['JavaScript', 'React', 'Next.js', 'Node.js', 'Express.js', 'Docker'],
     tags: ['E-commerce', 'Marketplace', 'Full Stack'],
     liveUrl: 'https://www.myswooop.de/',
     githubUrl: 'https://github.com/',
