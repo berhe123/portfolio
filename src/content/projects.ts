@@ -116,16 +116,16 @@ export const projects: ProjectCaseStudy[] = [
     shortDescription:
       'BrandCast is an AI marketing studio developed at Farka ICT Solutions to help brands and agencies create, schedule, and publish on-brand content across Facebook, Instagram, X, LinkedIn, TikTok, and blog — by routing each post to the best AI model or fusing two for higher quality.',
     overview:
-      'At Farka ICT Solutions, I developed BrandCast as a full stack AI content platform. Marketers add a brand, research company context from a website, describe a post goal, and BrandCast routes the brief to the strongest model — or merges two models in hybrid fusion — then returns channel-ready copy. I built the brand workspaces, AI content generation flow, multi-channel publishing support, monthly content planning, scheduling calendar, generation history, model analytics, and JWT-secured email/Google login so teams can run the full create-to-schedule workflow from one dashboard without juggling multiple AI tools.',
+      'At Farka ICT Solutions, I developed BrandCast as a full stack AI content platform. Marketers add a brand with voice and channels, describe a post goal or start from a template, and BrandCast routes the brief to the strongest model — or merges two models in hybrid fusion — then returns channel-ready copy. I built brand workspaces, AI content generation, multi-channel publishing support, monthly content planning, scheduling calendar, generation history, model analytics, ready-made templates, and JWT-secured email/Google login so teams can run the full create-to-schedule workflow from one dashboard.',
     problem:
       'Marketing teams waste time switching between AI chatbots, schedulers, and brand notes, and still guess which model writes the best post for each channel and brand voice.',
     solution:
-      'Delivered one AI marketing studio with brand research, automatic multi-model routing, hybrid fusion, channel-aware generation, scheduling, and analytics so content stays on-brand and publish-ready.',
+      'Delivered one AI marketing studio with automatic multi-model routing, hybrid fusion, channel-aware generation, templates, scheduling, and analytics so content stays on-brand and publish-ready.',
     architecture:
       'Full stack JavaScript product: React frontend, Express.js REST API, JWT authentication, multi-model AI routing with offline fallback, plus content history, schedule, and analytics services.',
     features: [
       'Multi-model AI router with hybrid fusion for best-of-both drafts',
-      'Website-based brand research to capture voice, audience, and offerings',
+      'Ready-made content templates with platform and tone selection',
       'Multi-brand workspaces with channel-aware posts for six platforms',
       'Monthly content plans, scheduling calendar, and generation history',
       'Analytics that show which models were chosen and why',

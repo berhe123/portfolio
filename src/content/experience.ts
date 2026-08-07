@@ -60,9 +60,9 @@ export const experiences: ExperienceItem[] = [
     period: '2019 — 2022',
     location: 'On-site',
     description:
-      'Worked at Farka ICT Solutions as a Full Stack Developer. My standout product work was BrandCast, an AI marketing studio that helps brands research company context, generate on-brand posts with multi-model AI routing, and schedule content across major social channels. I also delivered attendance, consulting, ERP, and HR systems for colleges and private companies.',
+      'Worked at Farka ICT Solutions as a Full Stack Developer. My standout product work was BrandCast, an AI marketing studio that helps brands generate on-brand posts with multi-model AI routing and schedule content across major social channels. I also delivered attendance, consulting, ERP, and HR systems for colleges and private companies.',
     achievements: [
-      'Developed BrandCast end to end as an AI marketing studio: brand workspaces, website-based brand research, multi-model content routing, hybrid fusion drafts, and channel-aware generation for Facebook, Instagram, X, LinkedIn, TikTok, and blog.',
+      'Developed BrandCast end to end as an AI marketing studio: brand workspaces, multi-model content routing, hybrid fusion drafts, ready-made templates, and channel-aware generation for Facebook, Instagram, X, LinkedIn, TikTok, and blog.',
       'Implemented BrandCast create-to-publish workflows including monthly content planning, post scheduling, generation history, and analytics that show which AI models were selected for each brief.',
       'Built JWT-secured authentication for BrandCast with email and Google sign-in, plus Express.js REST APIs and a React dashboard so marketers could manage brands and content from one place.',
       'Also delivered college Attendance Management systems, a private consulting application, and ERP/HR workflows using React, JavaScript, Express.js, PostgreSQL, and MySQL.',
