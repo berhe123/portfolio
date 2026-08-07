@@ -80,13 +80,13 @@ export const projects: ProjectCaseStudy[] = [
     shortDescription:
       'An idea-to-product platform I built at Weyra Consulting to help business owners and developers turn raw ideas into structured execution plans.',
     overview:
-      'At Weyra Consulting, I developed IDEAGO as a full stack product that connects founders and engineers around one shared workflow. The platform turns scattered brainstorming into organized product planning with prioritization, roadmaps, and clear next actions — built with React, Next.js, TypeScript, and Node.js.',
+      'At Weyra Consulting, I developed IDEAGO as a full stack product that connects founders and engineers around one shared workflow. The platform turns scattered brainstorming into organized product planning with prioritization, roadmaps, and clear next actions — built with React, NestJS, TypeScript, and Node.js.',
     problem:
       'Business owners and developers often lose momentum when ideas live across docs, chats, and whiteboards — with no shared path from concept to product.',
     solution:
       'Created structured idea canvases, scoring workflows, and roadmap-oriented planning views so consulting teams can move ideas into executable product plans.',
     architecture:
-      'Modular React architecture with typed domain models and API-ready service layers.',
+      'Modular React frontend with NestJS APIs, typed domain models, and service layers ready for growth.',
     features: [
       'Structured idea capture and prioritization for founders and developers',
       'Planning workflows that support idea-to-product execution',
@@ -100,7 +100,7 @@ export const projects: ProjectCaseStudy[] = [
       'Constraint-driven UX improves early product tools',
       'Clear domain boundaries speed up consulting delivery',
     ],
-    technologies: ['TypeScript', 'React', 'Next.js', 'Node.js', 'Tailwind CSS'],
+    technologies: ['TypeScript', 'React', 'NestJS', 'Node.js', 'Tailwind CSS'],
     tags: ['SaaS', 'Consulting', 'Full Stack'],
     liveUrl: 'https://ideago-rho.vercel.app/',
     githubUrl: 'https://github.com/',
@@ -114,32 +114,37 @@ export const projects: ProjectCaseStudy[] = [
     slug: 'brandcast',
     name: 'BrandCast',
     shortDescription:
-      'A brand storytelling web application I developed at Farka ICT Solutions to present campaigns and brand narratives through polished, shareable digital experiences.',
+      'BrandCast is an AI marketing studio developed at Farka ICT Solutions to help brands and agencies create, schedule, and publish on-brand content across Facebook, Instagram, X, LinkedIn, TikTok, and blog — by routing each post to the best AI model or fusing two for higher quality.',
     overview:
-      'At Farka ICT Solutions, I contributed to BrandCast as a production web product focused on visual clarity, responsive layouts, and maintainable frontend architecture. It demonstrates how I turn content and design requirements into a professional, deployable application.',
+      'At Farka ICT Solutions, I developed BrandCast as a full stack AI content platform. Marketers add a brand, research company context from a website, describe a post goal, and BrandCast routes the brief to the strongest model — or merges two models in hybrid fusion — then returns channel-ready copy. I built the brand workspaces, AI content generation flow, multi-channel publishing support, monthly content planning, scheduling calendar, generation history, model analytics, and JWT-secured email/Google login so teams can run the full create-to-schedule workflow from one dashboard without juggling multiple AI tools.',
     problem:
-      'Brand presentations often live in static decks that are hard to share and update on the web.',
+      'Marketing teams waste time switching between AI chatbots, schedulers, and brand notes, and still guess which model writes the best post for each channel and brand voice.',
     solution:
-      'Built narrative-driven sections and media-forward layouts for interactive brand storytelling.',
+      'Delivered one AI marketing studio with brand research, automatic multi-model routing, hybrid fusion, channel-aware generation, scheduling, and analytics so content stays on-brand and publish-ready.',
     architecture:
-      'Content-driven React architecture with reusable section blocks and consistent styling.',
+      'Full stack JavaScript product: React frontend, Express.js REST API, JWT authentication, multi-model AI routing with offline fallback, plus content history, schedule, and analytics services.',
     features: [
-      'Narrative-driven brand and campaign sections',
-      'Responsive presentation-grade layouts',
-      'Reusable frontend structure for faster iteration',
+      'Multi-model AI router with hybrid fusion for best-of-both drafts',
+      'Website-based brand research to capture voice, audience, and offerings',
+      'Multi-brand workspaces with channel-aware posts for six platforms',
+      'Monthly content plans, scheduling calendar, and generation history',
+      'Analytics that show which models were chosen and why',
+      'JWT authentication with email Continue and Google sign-in',
     ],
     challenges: [
-      'Preserving visual impact without harming readability',
-      'Keeping content blocks flexible and consistent',
+      'Making model choice automatic while keeping the UX simple for marketers',
+      'Preserving one brand voice across channels with different length and tone rules',
+      'Keeping the product usable without API keys through a reliable offline AI engine',
     ],
     lessons: [
-      'Storytelling products need strong visual rhythm',
-      'Reusable UI structure improves delivery speed',
+      'Strong AI products hide model complexity and show clear next actions',
+      'Brand context and channel fit matter as much as raw generation quality',
+      'Offline-first demos accelerate adoption and stakeholder confidence',
     ],
-    technologies: ['JavaScript', 'React', 'Next.js', 'Tailwind CSS', 'Express.js'],
-    tags: ['Platform', 'Farka ICT', 'Full Stack'],
+    technologies: ['JavaScript', 'React', 'Node.js', 'Express.js', 'Tailwind CSS', 'JWT'],
+    tags: ['AI', 'Platform', 'Farka ICT', 'Full Stack'],
     liveUrl: 'https://brandcast.digital',
-    githubUrl: 'https://github.com/',
+    githubUrl: 'https://github.com/berhe123/brandcast',
     year: '2021',
     role: 'Farka ICT Solutions · Full Stack Developer',
     accent: '#60a5fa',
