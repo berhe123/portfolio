@@ -6,6 +6,7 @@ export type ProjectTag =
   | 'Support'
   | 'Freelance'
   | 'Consulting'
+  | 'EXCEED IT'
   | 'Farka ICT'
   | 'Platform'
   | 'Productivity'
