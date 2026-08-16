@@ -40,7 +40,7 @@ export const projects: ProjectCaseStudy[] = [
   {
     id: 'ai-customer-support',
     slug: 'ai-customer-support',
-    name: 'AI Customer Support',
+    name: 'AI Support',
     shortDescription:
       'An AI-assisted support application developed in my MySwooop work to resolve common customer questions faster while keeping clear paths for human escalation.',
     overview:
