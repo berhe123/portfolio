@@ -1,5 +1,5 @@
 import { motion, useReducedMotion } from 'framer-motion'
-import { Download, Mail, MapPin, Phone } from 'lucide-react'
+import { ExternalLink, Mail, MapPin, Phone } from 'lucide-react'
 import { SITE } from '@/shared/config/site'
 import { Button } from '@/shared/ui/button'
 import { GithubIcon, LinkedinIcon } from '@/shared/ui/brand-icons'
@@ -189,12 +189,14 @@ export function HeroSection() {
                 Get in touch
               </a>
             </Button>
-            <Button asChild variant="outline" size="lg">
-              <a href={SITE.cvUrl} download>
-                <Download className="h-4 w-4" />
-                Download CV
-              </a>
-            </Button>
+            {SITE.cvUrl ? (
+              <Button asChild variant="outline" size="lg">
+                <a href={SITE.cvUrl} target="_blank" rel="noopener noreferrer">
+                  <ExternalLink className="h-4 w-4" />
+                  View CV
+                </a>
+              </Button>
+            ) : null}
           </div>
         </motion.div>
       </div>

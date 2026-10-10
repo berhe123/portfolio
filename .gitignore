@@ -5,6 +5,10 @@ server/dist
 server/node_modules
 .env
 .env.local
+.env.*.local
+public/cv.pdf
+cv/*.pdf
+cv/*.docx
 *.log
 .DS_Store
 coverage

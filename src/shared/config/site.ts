@@ -10,7 +10,8 @@ export const SITE = {
   email: 'berhe.arbsie@gmail.com',
   phone: '+49 152 14457833',
   location: 'Bremen, Germany',
-  cvUrl: '/cv.pdf',
+  /** Google Drive (or other) view link — set VITE_CV_URL in Vercel, not a file in the repo */
+  cvUrl: (import.meta.env.VITE_CV_URL ?? '').trim(),
   profileImage: '/images/profile.png',
   github: 'https://github.com/berhe123',
   linkedin: 'https://www.linkedin.com/in/berhe-arbsie-944854121/',
